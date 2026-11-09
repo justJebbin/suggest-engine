@@ -1,0 +1,12 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.5, pytest-9.2.0, pluggy-1.7.0 -- /home/artie/builds/suggest_engine/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/artie/builds/suggest_engine
+collecting ... collected 3 items
+
+tests/test_main.py::TestExtractSongThemes::test_theme_keyword_extraction PASSED [ 33%]
+tests/test_main.py::TestExtractSongThemes::test_section_tag_detection PASSED [ 66%]
+tests/test_main.py::TestGenerateSuggestions::test_suggestion_generation_with_section_patterns PASSED [100%]
+
+============================== 3 passed in 0.02s ===============================
+

@@ -1,0 +1,9 @@
+# Configuration for suggest_engine pattern analysis
+
+min_songs_for_pattern: 3
+calendar_span_days: 7
+todoist_tags_of_interest: 'songwriting, inspiration, lyrics, draft'
+cron_expression: '30 7,14 * * 1-5'
+discord_channel_name: catholic-songwriting
+min_snippets_for_suggestion: 2
+min_event_frequency: 1
